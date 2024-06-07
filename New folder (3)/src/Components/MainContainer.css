@@ -1,0 +1,43 @@
+.container {
+  
+    max-width: 800px;
+    /* Change the margin-top: ; */
+    margin: 5px auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  select,
+  button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  #extractor-box {
+    margin-top: 20px;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  #extractor-box img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  #result {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  #error-text {
+    color: red;
+    margin-top: 10px;
+  }
+
+  .center {
+    flex-grow: 1;
+    text-align: center;
+  }
